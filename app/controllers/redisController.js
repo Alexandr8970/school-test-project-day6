@@ -52,5 +52,5 @@ var redis = require("../helpers/redis");
             }
             yield next;
         }
-    }
+    };
 }());
